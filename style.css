@@ -5,30 +5,42 @@
 
 body {
     margin: 0;
-    background-color: #141414;
+    background-color: #f0f0f5;
 }
 
-.screen {
-    display: flex;
-    height: 100vh;
+.mopa{
+    height: 50px;
+    width: 400px;
+    margin-bottom: 50px;
+    margin: auto;
 }
 
-.leftside {
-    flex: 1;
+.mopa h1{
+    height: 50px;
+    color: #E02041;
+    margin: auto;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
 }
 
-.leftside img{
-    max-width: 500px;
-    height: auto;
+.biriba{
+    height: 7px;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #E02041;
 }
 
 .rightside {
     width: 400px;
-    background-color: #ddd;
+    background-color: white;
     padding: 50px;
+    padding-top: 1px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgb(172, 172, 172);
 }
 
 .rightside label{
@@ -37,18 +49,19 @@ body {
 }
 
 .rightside input{
-    border: 1px solid #999;
-    border-radius: 5px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 4px;
     padding: 5px;
-    font-size: 14px;
+    font-size: 18px;
     width: 100%;
     outline: 0;
 }
 
-.rightside h1{
+.rightside p{
+    font-size: 32px;
+    margin: 15px;
+    color: #E02041;
     text-align: center;
-    background-color: aqua;
-    border-radius: 10vh;
 }
 
 .error{
@@ -57,4 +70,18 @@ body {
     color: white;
     padding: 4px;
     border-radius: 5px;
+}
+
+.temConta{
+    text-align: center;
+}
+
+.cadastro{
+    color: #f0f0f5;
+    background-color: #E02041;
+    cursor: pointer;
+}
+
+.cadastro:hover{
+    background-color: #e02040ce;
 }
