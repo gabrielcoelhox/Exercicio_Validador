@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -42,6 +43,12 @@ body {
     font-size: 14px;
     width: 100%;
     outline: 0;
+}
+
+.rightside h1{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10vh;
 }
 
 .error{
