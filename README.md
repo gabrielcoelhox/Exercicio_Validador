@@ -20,6 +20,3 @@ O validador realiza:
 
 ## Link
 
-https://gabrielcoelhox.github.io/Exercicio_Google/
-
-<img src="https://i.ibb.co/1MS0VMP/exerc-cio-google.png"/>
